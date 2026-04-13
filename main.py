@@ -13,7 +13,7 @@ def find_non_injective_pair(mapping: dict) -> tuple | None:
             if first_y == second_y and first_x != second_x:
                 pairs += ((first_x, second_x))
     return pairs if pairs else None
-    # === END TODO ===
+    # === END TODO === 
 
 
 def find_non_surjective_element(mapping: dict, target: set):
