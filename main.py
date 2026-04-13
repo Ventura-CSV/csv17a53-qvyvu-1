@@ -1,4 +1,4 @@
-from __future__ import annotations 
+from __future__ import annotations  
 
 
 def find_non_injective_pair(mapping: dict) -> tuple | None:
