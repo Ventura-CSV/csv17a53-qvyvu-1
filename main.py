@@ -18,7 +18,10 @@ def find_non_surjective_element(mapping: dict, target: set):
     """Return one target element with no input mapping to it, or None if surjective."""
     # === TODO ===
     # Your code here
-    pass
+    for t in target:
+        if t not in mapping.values():
+            return t
+    return None
     # === END TODO ===
 
 
